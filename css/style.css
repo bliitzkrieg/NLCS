@@ -7,6 +7,45 @@
   padding: 25px 30px;
 }
 
+.nlcs_phone, .nlcs_email {
+    color: white;
+}
+
+.nlcs_phone:hover, .nlcs_email:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.nlcs_phone_bottom {
+    color: #282828;
+}
+
+.nlcs_phone_bottom:hover {
+    color: #282828;
+    text-decoration: underline;
+}
+
+#animated-thumbnails {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 100vw;
+}
+
+#animated-thumbnails a {
+    margin: 3px;
+}
+
+#animated-thumbnails a img {
+    width: 100px;
+    height: 100px;
+}
+
 .isotope-item {
   z-index: 2;
 }
@@ -229,7 +268,7 @@ header.active .navbar-fixed-top{
 	position: fixed;
 	background: rgba(0,0,0,0.8);;
 	border-bottom: none;
-	
+
 }
 header.active .navbar-default {
 /*
@@ -778,7 +817,7 @@ a.button-one {
   font-weight: 700;
   border: none;
   margin: 0;
-  
+
 }
 .tab-posts-box ul.nav-tabs li a:hover {
   border: none;
