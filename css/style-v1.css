@@ -35,10 +35,15 @@
   .spring-promo-special {
     font-size: 2em;
   }
+
+  .navbar-header {
+    display: flex !important;
+    justify-content: center !important;
+  }
 }
 
-.navbar-toggle .icon-bar {
-  background-color: white !important;
+.top-line {
+  border-bottom: none !important;
 }
 
 .navbar-brand {
