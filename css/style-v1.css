@@ -711,6 +711,7 @@ a.button-one {
 
 .services-offer-section .services-post img {
   width: 100%;
+  min-height: 275px;
 }
 .services-offer-section .services-post .services-content h2 {
   color: #333333;
