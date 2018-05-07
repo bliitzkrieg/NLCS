@@ -34,37 +34,6 @@
   }
 }
 
-.spring-promo {
-  position: absolute;
-  width: 100%;
-  background: transparent;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  z-index: 100;
-  font-size: 1.5em;
-  color: #ffcc00;
-  text-align: center;
-
-}
-
-.spring-promo-special {
-  font-size: 2.5em;
-}
-
-.spring-promo-text {
-  background: rgba(0, 0, 0, 0.7);
-  border-radius: 5px;
-  padding: 4px 20px;
-}
-
 .navbar-header {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -83,14 +52,6 @@
 }
 
 @media (max-width: 600px) {
-  .spring-promo {
-    font-size: 0.9em;
-  }
-
-  .spring-promo-special {
-    font-size: 2em;
-  }
-
   .navbar-header {
     -webkit-box-pack: center !important;
     -ms-flex-pack: center !important;
