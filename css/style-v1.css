@@ -3,6 +3,11 @@
 
 /* custom */
 
+.red {
+  color: #FEE600;
+  font-weight: bold;
+}
+
 .header-button {
   border-radius: 5px;
   -webkit-box-shadow: none;
@@ -705,7 +710,7 @@ a.button-one {
 
 @media (min-height: 720px) {
   .services-offer-section .services-post {
-    min-height: 550px;
+    min-height: 695px;
   }
 }
 
@@ -736,6 +741,7 @@ a.button-one {
 
 .services-offer-section .services-post .services-content p {
   padding: 0 30px;
+  text-align: left;
 }
 .services-offer-section .services-post .services-content ul.serv-links {
   padding: 10px 30px 0;
