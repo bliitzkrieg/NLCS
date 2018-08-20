@@ -1709,3 +1709,58 @@ footer .copyright p{
     background: #282828;
   }
 }
+
+
+/* Before And After Animation */
+.sealing-before-after-container {
+  position: relative;
+}
+
+.sealing-before-after-two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  -webkit-animation-name: fadeInAndOut;
+          animation-name: fadeInAndOut;
+          -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+          -webkit-animation-iteration-count: infinite;
+                  animation-iteration-count: infinite;
+          -webkit-animation-duration: 4s;
+                  animation-duration: 4s;
+          -webkit-animation-direction: alternate;
+                  animation-direction: alternate;
+}
+
+@-webkit-keyframes fadeInAndOut {
+	0% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fadeInAndOut {
+	0% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
